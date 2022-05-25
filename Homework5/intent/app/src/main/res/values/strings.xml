@@ -1,0 +1,15 @@
+
+<resources>
+    <string name="app_name">Implicit Intents</string>
+
+    <string name="edittext_uri">http://www.thss.tsinghua.edu.cn/</string>
+    <string name="button_uri">Open Website</string>
+
+    <string name="edittext_loc">清华大学软件学院</string>
+    <string name="button_loc">Open Location</string>
+
+    <string name="edittext_share">自强不息,厚德载物</string>
+    <string name="button_share">Share This Text</string>
+    <string name="share_text_with">Share this text with:</string>
+
+</resources>

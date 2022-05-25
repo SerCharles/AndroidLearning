@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AndroidBase</string>
+    <string name="add_text">相加</string>
+    <string name="add_result">0</string>
+</resources>

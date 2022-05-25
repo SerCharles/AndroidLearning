@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ListPreference
+        app:defaultValue="US"
+        app:entries="@array/pref_country_titles"
+        app:entryValues="@array/pref_country_values"
+        app:key="market_addr"
+        app:useSimpleSummaryProvider="true"
+        app:title="@string/country_title" />
+</PreferenceScreen>

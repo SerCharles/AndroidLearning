@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wisys.service.MainActivity">
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/pause"
+        android:layout_alignBottom="@+id/pause"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="64dp"
+        android:layout_marginStart="64dp"
+        android:onClick="startPlayer"
+        android:text="开始/停止"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="384dp" />
+
+    <Button
+        android:id="@+id/pause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="85dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginRight="48dp"
+        android:onClick="pausePlayer"
+        android:text="暂停/播放"
+        tools:layout_editor_absoluteX="214dp"
+        tools:layout_editor_absoluteY="384dp" />
+
+</RelativeLayout>
